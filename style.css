@@ -1,0 +1,321 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header a{
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.header ul li {
+    list-style: none;
+}
+.navbar ul{
+    display: flex;
+    padding-right: 150px;
+    margin-top: 15px;
+}
+.navbar ul li a{
+    padding: 15px 15px;
+    color: #626262;
+}
+.navbar ul li {
+    padding: 10px;
+    margin: 0px;
+}
+.navbar ul li a:hover {
+    background-color: rgb(219, 217, 217);
+}
+.icon p{
+    color:#626262;
+    padding-left: 50px;
+}
+.icon{
+    margin-left: 15%;
+}
+.icon i{
+    margin-right: 10px;
+    color: #4d79ff;
+}
+.icon h1 span{
+    color: #4d79ff;
+    font-family: monospace;
+    font-weight: 400;
+}
+.icon h1{
+    color: #0059b3;
+}
+.sub-menu-bar {
+    display: none;
+}
+.navbar ul li:hover .sub-menu-bar{
+    display: block;
+    position: absolute;
+    background-color: rgb(48, 146, 207);
+}
+.navbar ul li:hover .sub-menu-bar ul{
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-right: 0px;
+}
+.sub-menu-bar ul li a{
+    color: white;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-right: 50%;
+}
+.name h1{
+    margin-top: 50px;
+}
+.about ul li a {
+    color: white;
+    padding: 0px 5px;
+}
+.about ul li {
+    list-style: none;
+    margin-bottom: 50px;
+}
+.about ul {
+    display: flex;
+    justify-content: center;
+    padding-right: 50%;
+}
+.profile1{
+    background-color: rgb(48, 146, 207);
+    color: white;
+}
+.profile-bio{
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+    margin-top: 45px;
+}
+.profile-details h1{
+    color: rgb(48, 146, 207);
+    font-size: 1.9em;
+}
+.profile-details h3{
+    color: black;
+    font-size: 1.2em;
+    margin-top: 15px;
+    font-weight: 600;
+}
+.profile-details h5{
+    font-size: 0.93em;
+    font-weight: 200;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    color: #626262;
+}
+.profile-details p{
+    font-size: 0.93em;
+    line-height: 30px;
+    color: #626262;
+}
+.map-1{
+    background-image: url(IMAGES/pexels-pixabay-269874.jpg);
+    height: 200px;
+    margin-top: 100px;
+}
+footer{
+    background-color: rgb(48, 146, 207);
+}
+.footer-1{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.company ul{
+    margin-top: 15px;
+}
+.company ul li{
+    list-style: none;
+}
+.company ul li a{
+    text-decoration: none;
+    font-size: 0.85em;
+    line-height: 30px;
+    color: white;
+}
+.company h5{
+    font-size: 1em;
+    color: white;
+    margin-top: 40px;
+}
+.services ul{
+    margin-top: 15px;
+}
+.services ul li{
+    list-style: none;
+}
+.services ul li a{
+    text-decoration: none;
+    font-size: 0.85em;
+    line-height: 30px;
+    color: white;
+}
+.services h5{
+    font-size: 1em;
+    color: white;
+    margin-top: 40px;
+}
+.address i{
+    margin-right: 10px;
+    color: white;
+}
+.address h1 span{
+    color: #4d79ff;
+    font-family: monospace;
+    font-weight: 400;
+}
+.address h1{
+    color: white;
+    margin-top: 40px;
+}
+.address h1 span{
+    color: white;
+}
+.address a {
+    text-decoration: none;
+    color: white;
+}
+.address p{
+    margin-top: 15px;
+    line-height: 30px;
+    font-size: 0.85em;
+    margin-bottom: 10px;
+}
+.policy{
+    display: grid;
+    justify-content: center;
+    margin-left: 18%;
+    margin-top: 15px;
+}
+.policy ul li a{
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 0.85em;
+    color: white;
+}
+.policy ul li{
+    list-style: none;
+}
+.policy ul {
+    margin-top: 15px;
+}
+.policy h5{
+    font-size: 1em;
+    color: white;
+}
+.privacy-policy{
+    display: flex;
+    justify-content: start;
+    margin-left: 15%;
+    font-size: 0.85em;
+    color: white;
+    column-gap: 5px;
+
+}
+.privacy-policy ul li a {
+    color: white;
+}
+.privacy-policy ul li{
+    list-style: none;
+}
+.react-space {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 10px;
+    font-size: 0.85em;
+    margin-left: 15%;
+    margin-top: 10px;
+}
+.react-space a {
+    color: white;
+    margin-bottom: 50px;
+}
+.react-space p{
+    color: white;
+    margin-bottom: 50px;
+}
+@media all and (max-width: 600px) {
+    .navbar ul{
+        display: block;
+        padding-right: 50px;
+    }
+    .navbar ul li a{
+        padding: 5px 5px;
+    }
+    .icon{
+        margin-left: 0%;
+    }
+    .icon h1 {
+        display: inline-flex;
+        font-size: 1.3em;
+    }
+    .icon p {
+        font-size: 1em;
+    }
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .navbar ul li:hover .sub-menu-bar ul{
+        display: block;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding-right: 0px;
+    }
+    .navbar ul {
+        margin-top: 0px;
+    }
+    .name {
+        padding-right: 0%;
+    }
+    .about ul {
+        padding-right: 0%;
+    }
+    .profile-bio{
+        flex-direction: column;
+        padding-left: 4%;
+    }
+    .profile-details{
+        margin-top: 20px;
+    }
+    .footer-1 h1{
+        font-size: 1.3em;
+    }
+    .footer-1 {
+        flex-direction: column;
+        text-align: center;
+    }
+    .address {
+        padding-left: 0px;
+    }
+    .policy{
+        text-align: center;
+        margin-left: 0;
+    }
+    .privacy-policy{
+        margin-left: 0;
+        justify-content: center;
+    }
+}
+@media all and (min-width: 500px){
+    body,html {
+        overflow-x: hidden;
+    }
+}
