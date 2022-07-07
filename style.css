@@ -255,23 +255,24 @@ footer{
     }
     .navbar ul li a{
         padding: 5px 5px;
+        font-size: 0.8em;
     }
-    .icon{
-        margin-left: 0%;
+    .icon h1 span{
+        color: #4d79ff;
+        font-family: monospace;
+        font-weight: lighter;
+        font-size: 0.9em;
     }
-    .icon h1 {
-        display: inline-flex;
-        font-size: 1.3em;
+    .icon h1{
+        color: #0059b3;
+        font-size: 0.9em;
     }
     .icon p {
-        font-size: 1em;
+        margin-left: 0px;
+        font-size: 0.9em;
     }
-    body, html {
-        margin: 0;
-        padding: 0;
-        height: 100%;
-        width: 100%;
-        overflow-x: hidden;
+    .icon {
+        margin-left: 0%;
     }
     .navbar ul li:hover .sub-menu-bar ul{
         display: block;
@@ -290,13 +291,23 @@ footer{
     }
     .profile-bio{
         flex-direction: column;
-        padding-left: 4%;
+        text-align: center;
     }
     .profile-details{
         margin-top: 20px;
     }
-    .footer-1 h1{
+    .profile-details p {
+        font-size: 0.8em;
+    }
+    .profile-details h1 {
         font-size: 1.3em;
+    }
+    .profile-details h3 {
+        font-size: 1.1em;
+    }
+    .image-1 img {
+        width: 300px;
+        height: 300px;
     }
     .footer-1 {
         flex-direction: column;
@@ -305,6 +316,21 @@ footer{
     .address {
         padding-left: 0px;
     }
+    .address h1 {
+        font-size: 1em;
+    }
+    .address p, .address a{
+        font-size: 0.8em;
+    }
+    .company ul li a {
+        font-size: 0.8em;
+    }
+    .services ul li a {
+        font-size: 0.8em;
+    }
+    .policy ul li a {
+        font-size: 0.8em;
+    }
     .policy{
         text-align: center;
         margin-left: 0;
@@ -312,10 +338,209 @@ footer{
     .privacy-policy{
         margin-left: 0;
         justify-content: center;
+        flex-wrap: wrap;
+        font-size: 0.8em;
+    }
+    .react-space {
+        margin-left: 0%;
+        font-size: 0.8em;
+        flex-wrap: wrap;
+        text-align: center;
     }
 }
-@media all and (min-width: 500px){
-    body,html {
-        overflow-x: hidden;
+@media all and (max-width: 900px){
+    .navbar ul{
+        display: block;
+        padding-right: 50px;
+    }
+    .navbar ul li a{
+        padding: 5px 5px;
+        font-size: 0.8em;
+    }
+    .icon h1 span{
+        color: #4d79ff;
+        font-family: monospace;
+        font-weight: lighter;
+        font-size: 0.9em;
+    }
+    .icon h1{
+        color: #0059b3;
+        font-size: 0.9em;
+    }
+    .icon p {
+        margin-left: 0px;
+        font-size: 0.9em;
+    }
+    .icon {
+        margin-left: 0%;
+    }
+    .name {
+        padding-right: 0%;
+    }
+    .about ul {
+        padding-right: 0%;
+    }
+    .profile-bio{
+        flex-direction: column;
+        text-align: center;
+    }
+    .profile-details{
+        margin-top: 20px;
+    }
+    .profile-details p {
+        font-size: 0.8em;
+    }
+    .profile-details h1 {
+        font-size: 1.3em;
+    }
+    .profile-details h3 {
+        font-size: 1.1em;
+    }
+    .footer-1 {
+        flex-direction: column;
+        text-align: center;
+    }
+    .address {
+        padding-left: 0px;
+    }
+    .address h1 {
+        font-size: 1em;
+    }
+    .address p, .address a{
+        font-size: 0.8em;
+    }
+    .company ul li a {
+        font-size: 0.8em;
+    }
+    .services ul li a {
+        font-size: 0.8em;
+    }
+    .policy ul li a {
+        font-size: 0.8em;
+    }
+    .policy{
+        text-align: center;
+        margin-left: 0;
+    }
+    .privacy-policy{
+        margin-left: 0;
+        justify-content: center;
+        flex-wrap: wrap;
+        font-size: 0.8em;
+    }
+    .react-space {
+        margin-left: 0%;
+        font-size: 0.8em;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
+@media all and (max-width: 1200px) {
+    .icon h1 span{
+        color: #4d79ff;
+        font-family: monospace;
+        font-weight: lighter;
+        font-size: 0.9em;
+    }
+    .icon h1{
+        color: #0059b3;
+        font-size: 0.9em;
+    }
+    .icon p {
+        margin-left: 0px;
+        font-size: 0.9em;
+    }
+    .icon {
+        margin-left: 0%;
+    }
+    .navbar ul li a{
+        padding: 5px 5px;
+        font-size: 0.8em;
+    }
+    .profile-bio{
+        flex-direction: column;
+        text-align: center;
+    }
+    .profile-details{
+        margin-top: 20px;
+    }
+    .profile-details p {
+        font-size: 1em;
+    }
+    .profile-details h1 {
+        font-size: 1.3em;
+    }
+    .profile-details h3 {
+        font-size: 1.15em;
+    }
+    .profile-details h5 {
+        font-size: 1.1em;
+    }
+    .about ul {
+        padding-right: 0%;
+    }
+    .name {
+        padding-right: 0%;
+    }
+    .footer-1 {
+        flex-direction: column;
+        text-align: center;
+    }
+    .address {
+        padding-left: 0px;
+    }
+    .address h1 {
+        font-size: 1em;
+    }
+    .address p, .address a{
+        font-size: 0.8em;
+    }
+    .company ul li a {
+        font-size: 0.8em;
+    }
+    .services ul li a {
+        font-size: 0.8em;
+    }
+    .policy ul li a {
+        font-size: 0.8em;
+    }
+    .policy{
+        text-align: center;
+        margin-left: 0;
+    }
+    .privacy-policy{
+        margin-left: 0;
+        justify-content: center;
+        flex-wrap: wrap;
+        font-size: 0.8em;
+    }
+    .react-space {
+        margin-left: 0%;
+        font-size: 0.8em;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
+@media all and (max-width: 1350px) {
+    .icon h1 span{
+        color: #4d79ff;
+        font-family: monospace;
+        font-weight: lighter;
+        font-size: 0.9em;
+    }
+    .icon h1{
+        color: #0059b3;
+        font-size: 0.9em;
+    }
+    .icon p {
+        margin-left: 0px;
+        font-size: 0.9em;
+    }
+    .icon {
+        margin-left: 0%;
+    }
+    .navbar ul li a{
+        padding: 10px 10px;
+        font-size: 0.9em;
     }
 }
